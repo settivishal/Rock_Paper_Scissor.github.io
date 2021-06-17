@@ -52,6 +52,7 @@ button {
   font-size: 40px;
   cursor: pointer;
   transition: 0.1s;
+  outline: none;
 
   &:hover,
   &:focus {
@@ -92,6 +93,7 @@ button {
   }
 
   button {
+    outline: none;
     &:hover,
     &:focus {
       transform: scale(1.2);
